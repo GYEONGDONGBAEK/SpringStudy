@@ -1,17 +1,23 @@
 # [스프링 입문] Section 1. 프로젝트 환경설정
 
----
+
 
 김영한-스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술 강의를 듣고 정리한 내용
 
-- 목록
-    
-    [스프링 입문] Section 1. 프로젝트 환경설정
-    
-    [스프링 입문] Section 2. 스프링 웹 개발 기초
+<details>
+<summary>제목</summary>
+<div>
+
+[스프링 입문] Section 1. 프로젝트 환경설정
+
+[스프링 입문] Section 2. 스프링 웹 개발 기초
+
+</div>
+</details>
+
+
 
 ---
-
 # 스프링 부트란?
 
 Java Spring Framework(Spring Framework)는 Java Virtual Machine(JVM)에서 실행되는 프로덕션급 독립형 애플리케이션을 만들기 위한 인기 있는 엔터프라이즈급 오픈소스 프레임워크.
