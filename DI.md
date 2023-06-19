@@ -40,7 +40,7 @@ public interface People{
 
 }
 
-public class backend implements People{
+public class Backend implements People{
 
 }
 ```
@@ -50,10 +50,10 @@ public class backend implements People{
 ```java
 public class SideProject{
 
-	private PizzaRecipe pizzaRecipe;
+	private People people;
 
-	public PizzaChef(PizzaRecipe pizzaRecipe) {
-		this.pizzaRecipe = pizzaRecipe;
+	public Backend(People people) {
+		this.people = people;
 	}
 
 }
@@ -64,7 +64,7 @@ public class SideProject{
 ```java
 // DI 컨테이너에서의 동작
 
-SideProject = new SideProject(new backend());
+SideProject = new SideProject(new Backend());
 
 //프론트 엔드 개발자가 필요하다면 ?
 
